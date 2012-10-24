@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupGlobals="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false"
+         bootstrap="vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="Doctrine Extensions Service Provider Test Suite">
+            <directory>./tests/Umpirsky/Silex/Provider/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
