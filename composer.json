@@ -1,0 +1,23 @@
+{
+    "minimum-stability": "dev",
+    "name": "umpirsky/doctrine-extensions-service-provider",
+    "description": "Silex service provider for Doctrine extensions.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Саша Стаменковић",
+            "email": "umpirsky@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex":                      "1.0.*",
+        "gedmo/doctrine-extensions":        "2.3.*"
+    },
+    "suggest": {
+        "palma/DoctrineORMServiceProvider": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "Umpirsky\\Silex\\Provider": "src" }
+    }
+}
