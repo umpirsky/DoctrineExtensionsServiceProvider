@@ -11,13 +11,14 @@
     "require": {
         "php":                              ">=5.3.3",
         "silex/silex":                      "1.0.*",
-        "gedmo/doctrine-extensions":        "2.3.*"
+        "gedmo/doctrine-extensions":        "2.3.*",
+        "doctrine/common":                  "2.3.*"
     },
     "require-dev": {
-        "palma/DoctrineORMServiceProvider": "dev-master"
+        "palma/DoctrineORMServiceProvider": "*"
     },
     "suggest": {
-        "palma/DoctrineORMServiceProvider": "dev-master"
+        "palma/DoctrineORMServiceProvider": "*"
     },
     "minimum-stability": "dev",
     "autoload": {
